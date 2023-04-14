@@ -1,0 +1,62 @@
+.checked{
+    color: orange;
+}
+form{
+   width: 800px;
+   border: 1px solid #ddd;
+   border-radius: 5px;
+   padding: 10px;
+   margin: auto;
+}
+
+.aster{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+table, td{
+    border: 0px solid #000;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #ddd;
+}
+
+table{
+    width: 800px;
+}
+
+textarea{
+    width: 800px;
+    resize: vertical;
+}
+
+input{
+    padding: 5px;
+}
+button{
+    padding: 5px;
+}
+#email{
+    width: 340px;
+}
+#last{
+    position: relative;
+    left: 150px;
+    top: 0px
+}
+
+label[class="aster"]::after {
+    content: "*"; 
+    color:red;
+} 
+
+
+
